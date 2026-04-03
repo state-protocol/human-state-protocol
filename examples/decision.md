@@ -1,20 +1,10 @@
-# Decision Example
+State:
+Mode: decision
+Direction: +1
+Tension: +2
+Time: 0
+Abstraction: +1
+Relation: -1
 
-## Normal
-
-Should I take this trade?
-
----
-
-## With State
-
-Direction: +
-Tension: High
-
-Am I reacting emotionally or rationally?
-
----
-
-## Result
-
-The answer becomes more structured and reflective.
+Task:
+Should I leave my current job?

@@ -1,76 +1,38 @@
-# State Protocol (V0.1 Lite)
+# State Protocol V0.2
 
-A minimal human-AI interaction protocol.
-
----
-
-## 🧠 What is State?
-
-State is a simple way to describe your internal condition before asking AI.
-
-Instead of asking randomly, you define your state first.
+> A protocol layer between human state and AI output
 
 ---
 
-## ⚡ Lite Version (30 seconds)
+## 🧭 Overview
 
-Before using AI, add:
+State Protocol is a human-centered protocol layer designed to align AI outputs with the user's internal state.
 
-Direction: + or -
-Tension: High / Medium / Low
-
----
-
-## ✍️ Example
-
-### ❌ Normal
-
-Should I buy BTC now?
+It introduces a structured state representation system that acts as an interface between human intention and AI reasoning.
 
 ---
 
-### ✅ With State
+## 🧠 Core Concept
 
-Direction: +
-Tension: High
+Traditional AI alignment:
+→ Align AI to humanity
 
-Am I making an emotional decision?
-
----
-
-## 🔍 Why it works
-
-- More clarity  
-- More stable outputs  
-- Better decisions  
+State Protocol:
+→ Align multiple AI systems to a single human state
 
 ---
 
-## 🚀 How to use
+## 🧬 Protocol Structure
 
-1. Define your state  
-2. Ask AI  
-3. Compare results  
+The protocol is composed of three layers:
 
----
+### 1. State Layer (Core)
 
-## 🧪 Try it now
-
-Copy this:
-
-Direction: +
-Tension: High
-
-Ask AI anything.
-
----
-
-## 🌐 Vision
-
-State is a step toward a universal human-AI interaction protocol.
-
----
-
-## 🧬 Version
-
-V0.1 Lite (Initial release)
+```plaintext
+State:
+Mode:
+Direction:
+Tension:
+Time:
+Abstraction:
+Relation:
